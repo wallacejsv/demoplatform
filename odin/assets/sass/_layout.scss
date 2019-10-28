@@ -206,8 +206,36 @@ body {
 							.card-item {
 								width: 32.5%;
 								margin-bottom: 1vw;
-								background: #000;
-								height: 400px;
+								background: #3e3e3e;
+								height: 500px;
+								border-radius: 3px 30px 3px 30px;
+								max-width: 400px;
+								transition: .3s all ease-in-out;
+								&:hover {
+									background: linear-gradient(130deg, #503bff 0%, #8293ff 100%);
+									transition: .3s all ease-in-out;
+								}
+								.item {
+									padding: 0;
+									color: #fff;
+									display: flex;
+									flex-direction: column;
+									height: 70vh;
+									justify-content: center;
+									padding-left: 20px;
+									padding-right: 20px;
+									h1 {
+										text-transform: uppercase;
+										margin-bottom: 9px;
+										font-weight: 700;
+										letter-spacing: 5px;
+										border-bottom: 1px solid #fff;
+									}
+									h2 {
+										font-size: 14px;
+    									margin: 0;
+									}
+								}
 							}
 						}
                     }
