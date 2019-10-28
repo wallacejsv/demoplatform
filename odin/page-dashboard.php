@@ -39,10 +39,30 @@ $id_user = $current_user->ID;
 					<div class="item1">Devs</div>
 				</div>
 				<div class="boxes-courses">
-					<div class="card-item">1</div>
-					<div class="card-item">2</div>
-					<div class="card-item">3</div>
-					<div class="card-item">4</div>
+					<div class="card-item">
+						<div class="item">
+							<h1>Iniciante</h1>
+							<h2>dê o ponta pé inicial!</h2>
+						</div>
+					</div>
+					<div class="card-item">
+						<div class="item">
+							<h1>Intermediário</h1>
+							<h2>dê o ponta pé inicial!</h2>
+						</div>
+					</div>
+					<div class="card-item">
+						<div class="item">
+							<h1>Avançado</h1>
+							<h2>dê o ponta pé inicial!</h2>
+						</div>
+					</div>
+					<div class="card-item">
+						<div class="item">
+							<h1>Bônus</h1>
+							<h2>dê o ponta pé inicial!</h2>
+						</div>
+					</div>
 				</div>
 			</div>
 
